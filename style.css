@@ -1,4 +1,4 @@
-* {
+* {/*Selector Universal*/
     background-color: aqua;
     margin: 0px;
 }
@@ -30,5 +30,21 @@ div { /*Selector tipo*/
 }
 
 .ancestor .son2 { /*Selector descendente*/
+    color: blue;
+}
+
+#subsection {/*More specific*/
+    color: blue;
+}
+
+.main .list {
+    color: red;
+}
+
+#parent {
+    color: red;
+}
+
+.child {
     color: blue;
 }
