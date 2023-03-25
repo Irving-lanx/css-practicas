@@ -1,0 +1,34 @@
+* {
+    background-color: aqua;
+    margin: 0px;
+}
+
+div { /*Selector tipo*/
+    color: black;
+}
+
+.saludo { /*Selector clase*/
+    color: red;
+}
+
+.greet {
+    color: white;
+}
+
+#title { /*Selector ID*/
+    background-color: red;
+}
+
+.saludo, .greet { /*Selector agrupamiento*/
+    background-color: black;
+}
+
+.titulo#title { /*Selector encadenamiento*/
+    height: 200px;
+    text-align: center;
+    width: 500px;
+}
+
+.ancestor .son2 { /*Selector descendente*/
+    color: blue;
+}
